@@ -1,0 +1,2 @@
+# My small Python projects
+I don't know can I even call these small pieces of Python code "projects", but I just couldn't find any better place for storing them for that I could get and change them from any of my computers. So, yep. That's it.
