@@ -3,7 +3,7 @@ from sys import argv
 
 
 def cipher(password: str, cipher_keywords: list):
-    ciphered = ""
+    ciphered:str = ""
 
     for char in password:
         ciphered += char + choice(cipher_keywords)
@@ -14,7 +14,7 @@ def cipher(password: str, cipher_keywords: list):
 def main(arguments: list):
     args = arguments.copy()
     words = []
-    
+
     for i in range(1, len(args)):
         args[i] = args[i].split("=")[1].strip()
 
