@@ -38,7 +38,6 @@ try:
     end = int(argv[2])
 
     err = False
-    message = ""
 except ValueError:
     message = "Invalid arguments passed. Expected number, got string. "
     err = True

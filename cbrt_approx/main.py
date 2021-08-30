@@ -38,7 +38,6 @@ try:
     start = int(argv[1])
     end = int(argv[2])
 
-    message = ""
     err = False
 except ValueError: 
     err = True
